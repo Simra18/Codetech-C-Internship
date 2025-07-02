@@ -12,13 +12,13 @@ This menu-driven program demonstrates basic file handling operations using C. Th
 - Append additional lines
 - Read and display file contents
 
-This task is submitted as part of my internship at **Codtech IT Solutions**.
-
 ---
 
 ### Files Included:
-- `task1.c` – Source code implementing the menu-driven file handling system
-- `data.txt` – Output file generated and modified by the program
+- [task1.c](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task1/task1.c) – Source code implementing the menu-driven file handling system
+- [`data.txt`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task1/data.txt)  – Output file generated and modified by the program
+
+
 
 ---
 
