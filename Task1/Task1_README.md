@@ -24,13 +24,14 @@ This task is submitted as part of my internship at **Codtech IT Solutions**.
 
 ### How to Compile and Run:
 
-```sh
+```bash
 gcc task1.c -o task1
 ./task1
+```
 
 ---
 
-### Sample Terminal Output:
+```bash
 
 ===== File Handling Menu =====
 
@@ -41,41 +42,30 @@ gcc task1.c -o task1
 5. Exit
 
 Enter your choice (1–5): 1 
-
 File 'data.txt' created successfully.
 
 ===== File Handling Menu =====
-
 Enter your choice (1–5): 2
 
 Enter text to write to the file:
 I have created this File handling program to create, read, write and append. This is my first task from my C Programming internship provided by Codtech. I'm thankful and grateful to work for them. (written to file earlier)
-
 Data written to 'data.txt'.
 
 ===== File Handling Menu =====
-
 Enter your choice (1–5): 3
 Enter text to append to the file:
 (Appended text down)
 Data appended to 'data.txt'.
 
-===== File Handling Menu =====
-
-Enter your choice (1–5): 3
 Enter text to append to the file:
 regards,
 Data appended to 'data.txt'.
 
-===== File Handling Menu =====
-
-Enter your choice (1–5): 3
 Enter text to append to the file:
 Simra(intern)❤︎
 Data appended to 'data.txt'.
 
 ===== File Handling Menu =====
-
 Enter your choice (1–5): 4
 Contents of 'data.txt':
 I have created this File handling program to create, read, write and append. This is my first task from my C Programming internship provided by Codtech. I'm thankful and grateful to work for them. (written to file earlier)
@@ -84,8 +74,9 @@ regards,
 Simra(intern)❤︎
 
 ===== File Handling Menu =====
-
 Enter your choice (1–5): 5
 Exiting program. Goodbye!
 
+```
 ---
+
