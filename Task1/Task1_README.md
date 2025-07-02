@@ -48,7 +48,9 @@ File 'data.txt' created successfully.
 Enter your choice (1–5): 2
 
 Enter text to write to the file:
-I have created this File handling program to create, read, write and append. This is my first task from my C Programming internship provided by Codtech. I'm thankful and grateful to work for them. (written to file earlier)
+I have created this File handling program to create, read, write and append.
+This is my first task from my C Programming internship provided by Codtech.
+I'm thankful and grateful to work for them. (written to file earlier)
 Data written to 'data.txt'.
 
 ===== File Handling Menu =====
