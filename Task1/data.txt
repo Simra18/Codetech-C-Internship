@@ -1,0 +1,4 @@
+I have created this File handling program to create,read,write and append.This is my first task from my C Programming internship provided by codetech.I'm Thankful and grateful to work for them.(written to file earlier)
+(Appended text down)
+regards,
+Simra(intern)❤︎
