@@ -31,6 +31,7 @@ gcc task1.c -o task1
 
 ---
 
+### Sample Output:
 ```bash
 
 ===== File Handling Menu =====
