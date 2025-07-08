@@ -4,7 +4,7 @@
 **Intern ID:** CT04DF2527  
 **Domain:** C Programming  
 **Organization:** Codtech IT Solutions  
-**Internship Duration:** 4 Weeks (June–July 2025)
+**Internship Duration:** 4 Weeks 
 
 ---
 
