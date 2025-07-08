@@ -1,46 +1,51 @@
 # Task 3: Lexical Analyzer in C
 
-> **Intern:** Simra Fatima  
-> **Intern ID:** CT04DF2527  
-> **Domain:** C Programming  
-> **Organization:** Codtech IT Solutions  
-> **Internship Duration:** 4 Weeks (June–July 2025)
+**Intern:** Simra Fatima  
+**Intern ID:** CT04DF2527  
+**Domain:** C Programming  
+**Organization:** Codtech IT Solutions  
+**Internship Duration:** 4 Weeks 
 
 ---
 
 ## Description:
-> This task demonstrates a basic **Lexical Analyzer** written in C, simulating the first phase of a compiler.
 
-The program accepts a line or block of C code from the user and scans it to identify:
+This task demonstrates a basic **Lexical Analyzer** written in C, simulating the first phase of a compiler.
+The program accepts a single line (or block) of C code from the user and analyzes it to identify:
 
-- **Keywords** (like `int`, `if`, `return`)
-- **Operators** (such as `+`, `=`, `;`)
-- **Identifiers** (variable names, user-defined names)
+- **Keywords** — e.g., `int`, `if`, `return`
+- **Operators** — e.g., `+`, `=`, `;`
+- **Identifiers** — e.g., variable names, constants
 
-The implementation uses standard C functions like `fgets()` for input and `strtok()` for tokenization.  
-Each token is then classified using a comparison against predefined lists of keywords and operators.  
-This task integrates concepts from **string manipulation**, **arrays**, **parsing logic**, and basic **compiler design**.
+The logic is implemented using:
+- `fgets()` for safe multi-word input  
+- `strtok()` to tokenize the input string  
+- Arrays and `strcmp()` to classify each token based on known keyword/operator lists
+
+This task combines principles of **token parsing**, **string manipulation**, and **basic compiler design logic**.
 
 ---
 
-## Files:
+## Deliverables:
 
-| File | Description |
-|------|-------------|
-| `task3.c` | Main source code to tokenize and classify parts of C code |
-| `README.md` | This file, explaining the task and how to use the program |
+| File Name   | Type          | Purpose                                                                 |
+|-------------|---------------|-------------------------------------------------------------------------|
+| `task3.c`   | Source Code   | Core implementation of the lexical analyzer — accepts C code input, tokenizes it using `strtok()`, and classifies each token as a keyword, operator, or identifier using predefined arrays. |
+| `README.md` | Documentation | Contains the task objective, program flow, compilation instructions, detailed explanation of logic used, and sample terminal output for reference. |
 
 ---
 
 ## How to Compile and Run:
 
-Use any C compiler like `gcc`:
+Use a standard C compiler (e.g., `gcc`):
 
 ```bash
 gcc task3.c -o task3
 ./task3
 ```
+
 ---
+
 ## Sample Output:
 
 ```bash
