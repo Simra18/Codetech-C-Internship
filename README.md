@@ -25,6 +25,61 @@
 
 ---
 
+## Task Description:
+
+### Task 1 – File Handling
+
+- **Objective:** Build a menu-driven program in C that performs fundamental file operations — creation, writing, appending, and reading — using a single file (`data.txt`).
+  
+- **Key Concepts Used:** File pointers (`FILE *`), file modes (`w`, `a`, `r`), character and string I/O, buffer handling, and basic menu control with `switch` and `do-while`.
+  
+- **Files:**
+  - `task1.c` — Handles the file operations using `fopen()`, `fputs()`, `fgetc()`, with input captured using `fgets()` for multi-line support.
+    
+  - `data.txt` — The output file used to store and view written/appended data.
+    
+  - `README.md` — Describes program flow, compilation steps, and real terminal sample output for verification.
+
+---
+### Task 2 – Singly Linked List
+
+- **Objective:** Implement a dynamic singly linked list that supports inserting nodes, deleting nodes by value, and displaying the entire list structure.
+  
+- **Key Concepts Used:** `struct`, dynamic memory allocation (`malloc` and `free`), pointer manipulation, list traversal, and user-controlled operations via a menu interface.
+  
+- **Files:**
+  - `task2.c` — Defines the `Node` structure and includes functions for insert, delete, and display operations.
+    
+  - `README.md` — Outlines how the linked list is constructed, how each function behaves, how to compile/run the program, and includes formatted sample I/O.
+
+---
+
+### Task 3 – Lexical Analyzer
+
+- **Objective:** Simulate a basic lexical analyzer that classifies parts of C code (input by user or through string) into keywords, operators, and identifiers — mimicking the first phase of a compiler.
+  
+- **Key Concepts Used:** Token parsing, string manipulation, arrays of C keywords/operators, `strcmp()`, and character classification.
+  
+- **Files:**
+  - `task3.c` — Scans input strings and separates them into tokens, checking each token against predefined keyword/operator lists and displaying its classification.
+    
+  - `README.md` — Describes the lexical analysis process, flow of token detection, and includes a sample breakdown of input/output tokens.
+
+---
+
+### Task 4 – Run-Length Encoding (RLE)
+
+- **Objective:** Create an RLE-based compression and decompression utility that allows the user to either compress or decompress strings, demonstrating efficient encoding logic.
+  
+- **Key Concepts Used:** Loops, string traversal, conditionals, numeric conversion (`isdigit()`), `fgets()` input handling, and custom compression/decompression logic.
+  
+- **Files:**
+  - `task4.c` — Contains both `compressRLE()` and `decompressRLE()` functions with clear logic for frequency encoding and decoding, all wrapped in a clean menu interface.
+    
+  - `README.md` — Explains the algorithm used, how user input is processed, and includes example compressed/decompressed outputs shown from real terminal runs.
+
+---
+
 ## How to Compile & Run
 
 You can use any C compiler such as `gcc`.  
