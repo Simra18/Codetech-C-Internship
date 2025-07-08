@@ -47,8 +47,12 @@ This program uses structures (`struct`) and dynamic memory allocation (`malloc`,
 gcc task2.c -o task2
 ./task2
 
+```
 ---
 
+## Sample Terminal Output
+
+```bash
 ===== Singly Linked List Menu =====
 1. Insert
 2. Delete
