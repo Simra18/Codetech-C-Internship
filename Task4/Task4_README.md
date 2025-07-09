@@ -25,26 +25,16 @@ This task demonstrates practical use of:
 
 ---
 
-## Deliverables:
+## Deliverables
 
 | File Name   | Type          | Purpose                                                                 |
 |-------------|---------------|-------------------------------------------------------------------------|
-| `task4.c`   | Source Code   | Full implementation of the RLE compression and decompression logic. Presents a menu to the user to choose between encoding or decoding. |
-| `README.md` | Documentation | Explains the task, usage, logic, sample input/output, and compilation instructions. |
+| [`task4.c`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task4/task4.c)   | Source Code   | Full implementation of the RLE compression and decompression logic. Presents a menu to the user to choose between encoding or decoding. |
+| [`Task4_README.md`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task4/Task4_README.md) | Documentation | Explains the task, usage instructions, logic used for RLE encoding/decoding, compilation steps, and sample input/output. |
 
 ---
-
-## How to Compile and Run:
-
-Use any C compiler such as `gcc`. Open terminal in the directory containing `task4.c` and run:
-
-```bash
-gcc task4.c -o task4
-./task4
-```
----
-
 ## Sample Output:
+
 ```bash
 ===== RLE Compression Menu =====
 1. Compress String
