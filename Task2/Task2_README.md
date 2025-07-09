@@ -1,63 +1,63 @@
 # Task 2: Singly Linked List in C
 
-> **Intern:** Simra Fatima  
-> **Intern ID:** CT04DF2527  
-> **Domain:** C Programming  
-> **Organization:** Codtech IT Solutions  
-> **Internship Duration:** 4 Weeks (June–July 2025)
+**Intern:** Simra Fatima  
+**Intern ID:** CT04DF2527  
+**Domain:** C Programming  
+**Organization:** Codtech IT Solutions  
+**Internship Duration:** 4 Weeks 
 
 ---
 
-## Description
+## Description:
 
-This task involves the implementation of a **Singly Linked List** in C.  
-It demonstrates key data structure operations including:
+This task involves the implementation of a **Singly Linked List** using C programming.It demonstrates essential data structure operations including:
 
-- Inserting a new node at the end
+- Inserting a node at the end of the list
 - Deleting a node by value
-- Displaying the entire linked list
+- Displaying the current contents of the linked list
 
-This program uses structures (`struct`) and dynamic memory allocation (`malloc`, `free`) to manage the list efficiently.
-
----
-
-## Deliverables
-
-| File Name | Description |
-|-----------|-------------|
-| [`task2.c`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task2/task2.c) | Source code implementing the singly linked list |
-| [`README.md`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task2/README.md) | Documentation with usage and sample output |
+The program uses `struct` definitions and dynamic memory allocation (`malloc`, `free`) to manage nodes. It features a **menu-driven interface** allowing users to interactively test linked list operations.
 
 ---
 
-## Functional Requirements
+## Deliverables:
 
--  Create and insert nodes at the end
--  Delete a node by value
--  Display the linked list
--  Menu-driven interface
--  Dynamic memory allocation using `malloc`
--  Proper memory freeing using `free`
+| File Name   | Type          | Purpose                                                                 |
+|-------------|---------------|-------------------------------------------------------------------------|
+| [`task2.c`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task2/task2.c)   | Source Code   | C implementation of singly linked list with insertion, deletion, and display operations using dynamic memory allocation. |
+| [`Task2_README.md`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task2/Task2_README.md) | Documentation | Explains task functionality, program logic, usage instructions, and includes terminal output examples. |
 
 ---
 
-## How to Compile and Run
+## Functional Requirements:
+
+- Create and insert nodes at the end
+- Delete a node by value
+- Display all nodes in the list
+- Menu-driven user interface
+- Dynamic memory handling using `malloc()`
+- Proper memory cleanup using `free()`
+
+---
+
+## How to Compile and Run:
 
 ```bash
 gcc task2.c -o task2
 ./task2
-
 ```
+You’ll be presented with a simple menu to perform different linked list operations.
+
 ---
 
-## Sample Terminal Output
-
+## Sample Output:
 ```bash
 ===== Singly Linked List Menu =====
 1. Insert
 2. Delete
 3. Display
 4. Exit
+
 Enter your choice: 1
 Enter data to insert: 10
 Node inserted.
@@ -78,7 +78,5 @@ Linked List: 20
 
 Enter your choice: 4
 Exiting program.
-
 ```
-
 ---
