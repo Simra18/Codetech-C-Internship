@@ -40,16 +40,6 @@ The program uses `struct` definitions and dynamic memory allocation (`malloc`, `
 
 ---
 
-## How to Compile and Run:
-
-```bash
-gcc task2.c -o task2
-./task2
-```
-You’ll be presented with a simple menu to perform different linked list operations.
-
----
-
 ## Sample Output:
 ```bash
 ===== Singly Linked List Menu =====
