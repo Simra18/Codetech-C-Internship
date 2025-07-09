@@ -32,7 +32,10 @@
 - **Objective:** Build a menu-driven program in C that performs fundamental file operations — creation, writing, appending, and reading — using a single file (`data.txt`).
   
 - **Key Concepts Used:** File pointers (`FILE *`), file modes (`w`, `a`, `r`), character and string I/O, buffer handling, and basic menu control with `switch` and `do-while`.
-  
+
+- **Concept Overview:**
+File handling in C enables programs to store and retrieve data from external files, allowing persistent data beyond runtime. It is essential for applications that require long-term data storage, such as logging or configuration management. This program demonstrates file creation, writing, appending, and reading using standard C I/O functions in a menu-driven interface.
+
 - **Files:**
   - `task1.c` — Handles the file operations using `fopen()`, `fputs()`, `fgetc()`, with input captured using `fgets()` for multi-line support.
     
@@ -47,6 +50,9 @@
   
 - **Key Concepts Used:** `struct`, dynamic memory allocation (`malloc` and `free`), pointer manipulation, list traversal, and user-controlled operations via a menu interface.
   
+- **Concept Overview:**
+A singly linked list is a dynamic data structure where elements (nodes) are linked sequentially through pointers. It allows efficient memory usage and flexibility compared to static arrays. This task showcases how to manage data in real-time using dynamic memory with insertion, deletion, and display features.
+
 - **Files:**
   - `task2.c` — Defines the `Node` structure and includes functions for insert, delete, and display operations.
     
@@ -60,6 +66,9 @@
   
 - **Key Concepts Used:** Token parsing, string manipulation, arrays of C keywords/operators, `strcmp()`, and character classification.
   
+- **Concept Overview:**
+A lexical analyzer is the first step of a compiler, breaking code into tokens to prepare for syntax and semantic analysis. This task simulates lexical analysis by identifying elements of C syntax from a user-input string and classifying them using comparisons with predefined keyword/operator arrays.
+  
 - **Files:**
   - `task3.c` — Scans input strings and separates them into tokens, checking each token against predefined keyword/operator lists and displaying its classification.
     
@@ -72,6 +81,9 @@
 - **Objective:** Create an RLE-based compression and decompression utility that allows the user to either compress or decompress strings, demonstrating efficient encoding logic.
   
 - **Key Concepts Used:** Loops, string traversal, conditionals, numeric conversion (`isdigit()`), `fgets()` input handling, and custom compression/decompression logic.
+
+- **Concept Overview:**
+  Run-Length Encoding is a basic form of data compression that reduces repeated characters into a single character and count (e.g., "aaabb" becomes "a3b2"). This task demonstrates both compression and decompression logic, helping understand how encoding algorithms manage data efficiently.
   
 - **Files:**
   - `task4.c` — Contains both `compressRLE()` and `decompressRLE()` functions with clear logic for frequency encoding and decoding, all wrapped in a clean menu interface.
