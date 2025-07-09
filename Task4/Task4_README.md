@@ -11,7 +11,6 @@
 ## Description:
 
 This task focuses on implementing **Run-Length Encoding (RLE)** — a basic compression algorithm — using the C programming language.
-
 The program allows users to:
 - **Compress** a string using RLE format (e.g., `"aaabb"` → `"a3b2"`)
 - **Decompress** an encoded string back to its original form (e.g., `"a3b2"` → `"aaabb"`)
