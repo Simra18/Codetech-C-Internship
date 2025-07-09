@@ -1,7 +1,7 @@
 # Codetech C Internship
 
 > Completion of four core C programming tasks involving file handling, data structures, lexical analysis, and compression, developed as part of my internship at Codtech IT Solutions.
->## Internship Details
+## Internship Details
 
 - **Company:** Codtech IT Solutions  
 - **Intern Name:** Simra Fatima  
@@ -16,10 +16,10 @@
 
 | Task | Description | Folder | Files |
 |------|-------------|--------|--------|
-| Task 1 | File operations: create, write, append, read | [Task1](https://github.com/Simra18/Codetech-C-Internship/tree/main/Task1) | [`task1.c`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task1/task1.c), [`data.txt`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task1/data.txt), [`README.md`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task1/README.md) |
-| Task 2 | Singly Linked List with insert, delete, display | [Task2](https://github.com/Simra18/Codetech-C-Internship/tree/main/Task2) | [`task2.c`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task2/task2.c), [`README.md`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task2/README.md) |
-| Task 3 | Lexical analyzer to detect keywords, operators, identifiers | [Task3](https://github.com/Simra18/Codetech-C-Internship/tree/main/Task3) | [`task3.c`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task3/task3.c), [`README.md`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task3/README.md) |
-| Task 4 | RLE compression and decompression program | [Task4](https://github.com/Simra18/Codetech-C-Internship/tree/main/Task4) | [`task4.c`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task4/task4.c), [`README.md`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task4/README.md) |
+| Task 1 | File operations: create, write, append, read | [Task1](https://github.com/Simra18/Codetech-C-Internship/tree/main/Task1) | [`task1.c`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task1/task1.c), [`data.txt`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task1/data.txt), [`Task1_README.md`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task1/Task1_README.md) |
+| Task 2 | Singly Linked List with insert, delete, display | [Task2](https://github.com/Simra18/Codetech-C-Internship/tree/main/Task2) | [`task2.c`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task2/task2.c), [`Task2_README.md`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task2/Task2_README.md) |
+| Task 3 | Lexical analyzer to detect keywords, operators, identifiers | [Task3](https://github.com/Simra18/Codetech-C-Internship/tree/main/Task3) | [`task3.c`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task3/task3.c), [`Task3_README.md`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task3/Task3_README.md) |
+| Task 4 | RLE compression and decompression program | [Task4](https://github.com/Simra18/Codetech-C-Internship/tree/main/Task4) | [`task4.c`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task4/task4.c), [`Task4_README.md`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task4/Task4_README.md) |
 
 > Each task is organized in its own folder with source code, explanation, and sample output in a dedicated `README.md`.
 
@@ -38,7 +38,7 @@
     
   - `data.txt` — The output file used to store and view written/appended data.
     
-  - `README.md` — Describes program flow, compilation steps, and real terminal sample output for verification.
+  - `Task1_README.md` — Describes program flow, compilation steps, and real terminal sample output for verification.
 
 ---
 ### Task 2 – Singly Linked List
@@ -50,7 +50,7 @@
 - **Files:**
   - `task2.c` — Defines the `Node` structure and includes functions for insert, delete, and display operations.
     
-  - `README.md` — Outlines how the linked list is constructed, how each function behaves, how to compile/run the program, and includes formatted sample I/O.
+  - `Task2_README.md` — Outlines how the linked list is constructed, how each function behaves, how to compile/run the program, and includes formatted sample I/O.
 
 ---
 
@@ -63,7 +63,7 @@
 - **Files:**
   - `task3.c` — Scans input strings and separates them into tokens, checking each token against predefined keyword/operator lists and displaying its classification.
     
-  - `README.md` — Describes the lexical analysis process, flow of token detection, and includes a sample breakdown of input/output tokens.
+  - `Task3_README.md` — Describes the lexical analysis process, flow of token detection, and includes a sample breakdown of input/output tokens.
 
 ---
 
@@ -76,16 +76,26 @@
 - **Files:**
   - `task4.c` — Contains both `compressRLE()` and `decompressRLE()` functions with clear logic for frequency encoding and decoding, all wrapped in a clean menu interface.
     
-  - `README.md` — Explains the algorithm used, how user input is processed, and includes example compressed/decompressed outputs shown from real terminal runs.
+  - `Task4_README.md` — Explains the algorithm used, how user input is processed, and includes example compressed/decompressed outputs shown from real terminal runs.
 
 ---
-
 ## How to Compile & Run
 
-You can use any C compiler such as `gcc`.  
-In your terminal, navigate to the appropriate task folder and run:
+To compile and run any of the C programs in this repository, use a standard C compiler such as `gcc`.
 
-```bash
+1. Open your terminal or command prompt.
+2. Navigate to the folder of the task you want to run. For example:
+   ```bash
+   cd Task1
+   ```
+3.Compile the C file using:
+ ```bash
 gcc taskX.c -o taskX
+ ```
+>Replace taskX.c with the actual filename (e.g., task1.c, task2.c).
+4.Run the compiled program:
+```bash
 ./taskX
 ```
+>Each folder also includes a dedicated README.md with task-specific compile instructions and sample output.
+---
