@@ -9,8 +9,7 @@
 ---
 
 ## Description:
-
-This task demonstrates a basic **Lexical Analyzer** written in C, simulating the first phase of a compiler.
+This task demonstrates a basic **Lexical Analyzer** written in C, simulating the first phase of a compiler. A lexical analyzer (lexer) scans source code and breaks it into meaningful tokens to prepare for syntax and semantic analysis.
 The program accepts a single line (or block) of C code from the user and analyzes it to identify:
 
 - **Keywords** — e.g., `int`, `if`, `return`
