@@ -20,7 +20,7 @@ The program accepts a single line (or block) of C code from the user and analyze
 The logic is implemented using:
 - `fgets()` for safe multi-word input  
 - `strtok()` to tokenize the input string  
-- Arrays and `strcmp()` to classify each token based on known keyword/operator lists
+- Arrays and `strcmp()` to classify each token based on predefined keyword/operator lists
 
 This task combines principles of **token parsing**, **string manipulation**, and **basic compiler design logic**.
 
@@ -30,19 +30,8 @@ This task combines principles of **token parsing**, **string manipulation**, and
 
 | File Name   | Type          | Purpose                                                                 |
 |-------------|---------------|-------------------------------------------------------------------------|
-| `task3.c`   | Source Code   | Core implementation of the lexical analyzer — accepts C code input, tokenizes it using `strtok()`, and classifies each token as a keyword, operator, or identifier using predefined arrays. |
-| `README.md` | Documentation | Contains the task objective, program flow, compilation instructions, detailed explanation of logic used, and sample terminal output for reference. |
-
----
-
-## How to Compile and Run:
-
-Use a standard C compiler (e.g., `gcc`):
-
-```bash
-gcc task3.c -o task3
-./task3
-```
+| [`task3.c`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task3/task3.c)   | Source Code   | Core implementation of the lexical analyzer — accepts C code input, tokenizes it using `strtok()`, and classifies each token as a keyword, operator, or identifier. |
+| [`Task3_README.md`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task3/Task3_README.md) | Documentation | Contains task objective, program flow, compilation instructions, detailed logic explanation, and sample terminal output. |
 
 ---
 
@@ -61,5 +50,5 @@ Operator: +
 Identifier: 5
 Operator: ;
 ```
----
 
+---
