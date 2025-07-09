@@ -9,7 +9,7 @@
 ---
 
 ## Description:
-
+File handling in C enables a program to store and retrieve data from external files, allowing persistent data management beyond runtime. It plays a crucial role in real-world applications such as logging systems, configuration files, and data storage utilities.
 This task demonstrates a **menu-driven file handling program** written in C.  
 The program allows the user to perform the following operations on a text file named `data.txt`:
 
