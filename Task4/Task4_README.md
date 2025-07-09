@@ -10,7 +10,7 @@
 
 ## Description:
 
-This task focuses on implementing **Run-Length Encoding (RLE)** — a basic compression algorithm — using the C programming language.
+This task focuses on implementing **Run-Length Encoding (RLE)** — a simple, lossless data compression algorithm — using the C programming language. RLE reduces the size of repetitive data by encoding consecutive repeated characters as a single character followed by its count.
 The program allows users to:
 - **Compress** a string using RLE format (e.g., `"aaabb"` → `"a3b2"`)
 - **Decompress** an encoded string back to its original form (e.g., `"a3b2"` → `"aaabb"`)
