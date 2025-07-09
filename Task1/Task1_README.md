@@ -34,19 +34,6 @@ The implementation makes use of:
 | [`Task1_README.md`](https://github.com/Simra18/Codetech-C-Internship/blob/main/Task1/Task1_README.md) | Documentation | This file containing task explanation, usage instructions, and output demonstration. |
 
 ---
-
-## How to Compile and Run:
-
-Use a standard C compiler such as `gcc`. Open terminal in the directory containing `task1.c` and run:
-
-```bash
-gcc task1.c -o task1
-./task1
-```
-
-You will be presented with a menu to choose various file operations.
-
----
 ## Sample Output:
 
 ```bash
