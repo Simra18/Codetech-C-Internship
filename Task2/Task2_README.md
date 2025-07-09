@@ -9,7 +9,7 @@
 ---
 
 ## Description:
-
+A singly linked list is a dynamic data structure where elements (nodes) are connected sequentially using pointers. It allows flexible memory allocation and efficient insertion or deletion operations, making it ideal for situations where the number of data elements can change at runtime.
 This task involves the implementation of a **Singly Linked List** using C programming.It demonstrates essential data structure operations including:
 
 - Inserting a node at the end of the list
