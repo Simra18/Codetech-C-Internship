@@ -24,7 +24,7 @@ This task demonstrates practical use of:
 
 ---
 
-## Deliverables
+## Deliverables:
 
 | File Name   | Type          | Purpose                                                                 |
 |-------------|---------------|-------------------------------------------------------------------------|
